@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-warning">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="@/assets/Wear it up logo.png" alt="Logo" width="65" height="60" class="d-inline-block align-text-top">
+      <img src="@/assets/Wear it up logo.svg" alt="Logo" width="65" height="60" class="d-inline-block align-text-top">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -21,6 +21,9 @@
         </li>
         <li class="nav-item mx-4">
           <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item mx-4">
+          <a @click="$router.push('/')" class="nav-link" href="#">Log out</a>
         </li>
       </ul>
     </div>
